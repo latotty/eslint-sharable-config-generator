@@ -62,9 +62,9 @@ function compileConfig(from, to) {
 }
 
 glob.sync('./*.@(js|json|yml|yaml)', { ignore: './_*', cwd: fromDir }).forEach((filePath) => {
-  const fromAbsolute = path.resolve(filePath);
+  const fromAbsolute = path.resolve(path.join(fromDir, filePath));
   const fromExt = path.extname(filePath);
   const toFileName = path.basename(filePath).replace(fromExt, '.js');
-  const toAbsolute = path.resolve(toFileName);
+  const toAbsolute = path.resolve(path.join(toDir, toFileName));
   compileConfig(fromAbsolute, toAbsolute);
 });
