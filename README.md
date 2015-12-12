@@ -1,4 +1,5 @@
 # Eslint sharable config generator
+[![Build Status](https://travis-ci.org/latotty/eslint-sharable-config-generator.svg?branch=master)](https://travis-ci.org/latotty/eslint-sharable-config-generator)
 
 Install with `npm install eslint-sharable-config-generator`
 
