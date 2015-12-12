@@ -1,0 +1,25 @@
+{
+  "name": "eslint-sharable-config-generator",
+  "version": "1.0.0",
+  "description": "eslint-sharable-config-generator",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-sharable-config",
+    "generator"
+  ],
+  "author": "LaTotty <latotty@codingsans.com>",
+  "license": "MIT",
+  "engines" : {
+    "node" : ">=4.2.0"
+  },
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "glob": "^6.0.1"
+  }
+}
