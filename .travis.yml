@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "4.2"
+script:
+  - npm run lint
+  - npm test
+deploy:
+  provider: npm
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
+    all_branches: true
