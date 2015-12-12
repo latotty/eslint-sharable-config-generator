@@ -25,14 +25,14 @@ function printHelp(isHelp) {
   console[log]('Options:');
   console[log]('');
   console[log]('  -h, --help    Display this usage info');
-  process.exit(isHelp ? 0 : 1);
+  process.exit(isHelp ? 0 : 1); // eslint-disable-line no-process-exit
 }
 
-if (~args.indexOf("--help") || ~args.indexOf("-h")) {
+if (~args.indexOf('--help') || ~args.indexOf('-h')) {
   printHelp(true);
 }
 
-if (args.length != 2) {
+if (args.length !== 2) {
   printHelp(false);
 }
 
