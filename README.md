@@ -1,0 +1,1 @@
+# eslint-sharable-config-generator
