@@ -1,6 +1,6 @@
 {
   "name": "eslint-sharable-config-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-sharable-config-generator",
   "main": "index.js",
   "bin": "index.js",
@@ -15,8 +15,8 @@
   ],
   "author": "LaTotty <latotty@codingsans.com>",
   "license": "MIT",
-  "engines" : {
-    "node" : ">=4.2.0"
+  "engines": {
+    "node": ">=4.2.0"
   },
   "dependencies": {
     "eslint": "^1.10.3",
