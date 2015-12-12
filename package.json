@@ -16,6 +16,10 @@
   ],
   "author": "LaTotty <latotty@codingsans.com>",
   "license": "MIT",
+  "repository": "latotty/eslint-sharable-config-generator",
+  "bugs": {
+    "url" : "https://github.com/latotty/eslint-sharable-config-generator/issues"
+  },
   "engines": {
     "node": ">=4.2.0"
   },
